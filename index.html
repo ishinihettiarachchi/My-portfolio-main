@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Ishini Hettiarachchi</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,700;1,400&family=Poppins:wght@100;200;300;400;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <section class="main">
+            <div class="main-width">
+                <div class="nav-header">
+                <header>
+                    <div class="logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+
+                    <nav>
+                        <div class="hamb">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <ul class="nav-list">
+                            <li><a href="#main">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li class="btn"><a href="#contact">Contact Me</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+                <div class="container" >
+                    <div class="main-text">
+                        <h3>Hi, There</h3>
+                        <h1>I am <span>Ishini Hettiarachchi</span></h1>
+                        <p> This is my official portfolio which showcase all the 
+                            details about my skills, qualifiactions and work experiences. </p>
+                        <div class="social">
+                            <a href="https://github.com/ishinihettiarachchi"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://medium.com/@ishinihettiarachchiuv"><i class="fa-brands fa-medium"></i></a>
+                            <a href="mailto:ishinihettiarachchiuv@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                            <a href="tel:+94701118768"><i class="fa-solid fa-phone"></i></a>
+                            <a href="https://www.linkedin.com/in/ishini-hettiarachchi-666370228/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.facebook.com/ishini.hettiarachchi.39/"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                        <a href="documents\Ishini_resume.pdf" download=""><button type="button" href>Download My CV</button></a>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-contaner">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="" alt="">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm an enthusiastic software engineering undergraduate at the University of Kelaniya, driven by challenges and a passion for learning 
+                            cutting-edge technologies. Eager to shoulder responsibilities, I thrive on pushing my boundaries and expanding my skill set. I aspire 
+                            to leverage software applications in order to create meaningful solutions for real-world issues, aiming to have a tangible impact on 
+                            these challenges.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('extra-curricular')">Extra-curricular</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li>B.Sc. (Hons.) in Software Engineering<span class="row1"><br>University of Kelaniya</span><br><span class="duration">2021 - 2025</span></li>
+                                <li>GCE Advanced Level | Physical Science Stream<span class="row1"><br>Visakha Vidyalaya, Colombo 05</span><br><span class="duration">2017 - 2019</span></li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="extra-curricular">
+                            <ul>
+                                <li>Project Coordinator | Differently Abled Avenue<span class="row1"><br>Leo Club of University of Kelaniya</span><br><span class="duration">Dec 2022 - May 2023</span></li>
+                                <li>Project Chair – Project Lassna Sri Lanka | Differently Abled Avenue<span class="row1"><br>Leo Club of University of Kelaniya</span><br><span class="duration">Oct 2022 - May 2023</span></li>
+                                <li>Treasurer<span class="row1"><br>IEEE WIE Affinity Group of University of Kelaniya</span><br><span class="duration">July 2022 - Aug 2023</span></li>
+                                <li>Vice Chairperson<span class="row1"><br>IEEE WIE Affinity Group of University of Kelaniya</span><br><span class="duration">Aug 2023 - Present</span></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="header">
+                <h1>My Skills</h1>
+                <div class="skill-container">
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/html.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>HTML 5</h3>
+                            <p>Medium</p>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/css.png" alt=""class="skill-icon">
+                            </div>
+                            <h3>CSS 3</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/js.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>JavaScript</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/react.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>React JS</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/java.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>Java</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/spring.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>Springboot</h3>
+                            <p>Beginner</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/node.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>Node JS</h3>
+                            <p>Beginner</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/sql.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>MySQL</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/figma.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>Figma</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <div class="skill-title">
+                            <div class="img">
+                                <img src="images/photoshop.png" alt="" class="skill-icon">
+                            </div>
+                            <h3>Adobe Photoshop</h3>
+                            <p>Medium</p>
+
+                        </div>
+                    </div>
+                 
+                    
+                </div>
+
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-content">
+            
+            <div class="project-row">
+                <img src="images/ig.png" alt="">
+                <div class="main-row">
+                    <h6>Development</h6>
+                </div>
+                <h3>Island Guide | Tour Guid Website Design</h3>
+            </div>
+            <div class="project-row">
+                <img src="images/cs.png" alt="">
+                <div class="main-row">
+                    <h6>Game Development</h6>
+                </div>
+                <h3>Castle Savior | Mini Game</h3>
+            </div>
+            <div class="project-row">
+                <img src="images/wheel.png" alt="">
+                <div class="main-row">
+                    <h6>Development</h6>
+                </div>
+                <h3>WheelXgo | Vehicle Reservation Application</h3>
+            </div>
+        </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact Me!</span></h2>
+                <h4>If you have any project in your mind.</h4>
+                <p>I'm an enthusiastic developer who thrive in advancing technolocies...</p>
+                <div class="list">
+                    <li><a href="#">+94 70 111 8768</a></li>
+                    <li><a href="#">ishinihettiarachchiuv@gmail.com</a></li>
+                </div>
+        
+                <div class="contact-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i class="fa-brands fa-medium"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+        
+            </div>
+           
+            <div class="contact-form">
+                <form action="">
+                    <input type="name" placeholder="Your Name " required>
+                    <input type="email" placeholder="Your Email " required>
+                    <input type="number" placeholder="your Mobile Number" required>
+                    <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+                    <input type="submit" value="Send Message" class="submit" required>
+                </form>
+        
+            </div>
+           
+        </section>
+
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+    </html>
