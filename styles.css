@@ -667,3 +667,12 @@ form textarea {
 #msg{
     color: #199b95;
 }
+
+.bottom-bar p{
+    text-align: center;
+    color: #c9c5c5;
+    background-color:#202020;
+    padding-bottom: 10px;
+    background-color: #2a2a2a;
+}
+
