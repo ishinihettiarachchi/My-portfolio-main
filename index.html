@@ -13,10 +13,10 @@
 
     </head>
     <body>
-        <section class="main">
+        <section class="main" id="main">
             <div class="main-width">
                 <div class="nav-header">
-                <header class="header-bg">
+                <header >
                     <div class="logo">
                         <img src="images/logo.png" alt="">
                     </div>
@@ -63,7 +63,7 @@
             <div class="about-contaner">
                 <div class="row">
                     <div class="about-col1">
-                        <img src="" alt="">
+                        <img src="images/Profile-img.jpg" alt="">
                     </div>
                     <div class="about-col2">
                         <h1 class="sub-title">About Me</h1>
@@ -239,8 +239,8 @@
                 <h4>If you have any project in your mind.</h4>
                 <p>I'm an enthusiastic developer who thrive in advancing technolocies...</p>
                 <div class="list">
-                    <li><a href="#">+94 70 111 8768</a></li>
-                    <li><a href="#">ishinihettiarachchiuv@gmail.com</a></li>
+                    <li><a href="tel:+94701118768">+94 70 111 8768</a></li>
+                    <li><a href="mailto:ishinihettiarachchiuv@gmail.com">ishinihettiarachchiuv@gmail.com</a></li>
                 </div>
         
                 <div class="contact-icons">
@@ -253,14 +253,14 @@
             </div>
            
             <div class="contact-form">
-                <form action="">
-                    <input type="name" placeholder="Your Name " required>
-                    <input type="email" placeholder="Your Email " required>
-                    <input type="number" placeholder="your Mobile Number" required>
-                    <textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+                <form action="" name="submit-to-google-sheet">
+                    <input type="name" name="name" placeholder="Your Name " required>
+                    <input type="email"  placeholder="Your Email " name="email" required>
+                    <input type="number" name="phone" placeholder="your Mobile Number" required>
+                    <textarea name="" id="" cols="35" rows="10" name="message" placeholder="How Can I Help You " required></textarea>
                     <input type="submit" value="Send Message" class="submit" required>
                 </form>
-        
+                <span id="msg"></span>
             </div>
            
         </section>
