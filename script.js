@@ -53,3 +53,8 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbzEGYnFRTBRJDwbzvTTfE
         )
       .catch(error => console.error('Error!', error.message))
   })
+
+  document.addEventListener('DOMContentLoaded', function () {
+    var mainText = document.querySelector('.main-text');
+    mainText.classList.add('loaded');
+});

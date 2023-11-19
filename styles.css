@@ -34,9 +34,8 @@ header{
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    z-index: 1000; /* Optional: Adjust the z-index to ensure it appears above other elements */
-    transition:  0.3s ease; /* Add transition for smooth color change */
-
+    z-index: 1000; 
+    transition:  0.3s ease; 
 }
 
 
@@ -151,6 +150,21 @@ nav .nav-list li.btn:hover a{
 
 .main-text span{
     color: #1caba4;
+}
+
+.container {
+    position: relative;
+}
+
+.main-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.main-text.loaded {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .container .main-text h3{
@@ -305,7 +319,7 @@ nav .nav-list li.btn:hover a{
 
 .skills{
     padding-top: 20px;
-    background-color: #202020;
+    background:linear-gradient(rgba(0,0,0),rgba(0,0,0,0.5));
 }
 
 .header{
@@ -620,6 +634,9 @@ form textarea {
         background:linear-gradient(rgba(0,0,0),rgba(0,0,0,0.5));
 
         
+    }
+    .main-text{
+        margin-left: 60px;
     }
 }
 
