@@ -230,7 +230,7 @@ nav .nav-list li.btn:hover a{
 
 .about-col2{
     
-    padding: 20px;
+    padding: 30px;
     color: white;
     text-align: justify;
 }
@@ -239,18 +239,30 @@ nav .nav-list li.btn:hover a{
     font-size: 30px;
 }
 
+.about-col2{
+    color: #979595;
+}
+
+.about-col2 .main-des{
+    padding: 20px;
+    border-bottom: 1px solid #979595;
+
+}
+
 .tab-titles{
     display: flex;
     margin: 20px 0 40px;
 }
 
-.tab-links{
+.tab-links {
     margin-right: 50px;
     font-size: 18px;
-   
+   font-weight: bold;
     cursor: pointer;
     position: relative;
 }
+
+
 
 .tab-links::after{
     content: '';
