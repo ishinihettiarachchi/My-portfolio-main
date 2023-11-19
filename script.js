@@ -21,3 +21,15 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab")
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    var header = document.querySelector('header');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 0) {
+            header.classList.add('header-bg');
+        } else {
+            header.classList.remove('header-bg');
+        }
+    });
+});
